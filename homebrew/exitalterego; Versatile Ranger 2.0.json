@@ -26,7 +26,8 @@
 			"name": "Versatile Ranger",
 			"source": "VersatileRanger2",
 			"classFeatures": [
-				"Favored Enemy|Versatile Ranger|VersatileRanger2|1|VersatileRanger2"
+				"Favored Enemy|Versatile Ranger|VersatileRanger2|1|VersatileRanger2",
+				"Natural Explorer|Versatile Ranger|VersatileRanger2|1|VersatileRanger2"
 			]
 		}
 	],
@@ -44,6 +45,29 @@
 				"Your favored enemies cannot be hidden from you while they are within 20 feet of you.",
 				"You also learn on language of your choice spoken by your favored enemies, if they speak at all.",
 				"You choose on additional favored enemy, as well as an associated language at 6th level, and again at 10th and 18th level."
+			]
+		},
+		{
+			"name": "Natural Explorer",
+			"source": "VersatileRanger2",
+			"className": "Versatile Ranger",
+			"classSource": "VersatileRanger2",
+			"level": 1,
+			"entries": [
+				"Your experience with travelling through and surviving in different environments lets you guide other through perilous terrain.",
+				"Your proficiencey bonus is doubled for any Nature or Survival check you make if you are proficient with the skill you are using.",
+				"Whenever you succeed on a Wisdon (Survival) check to track creatures, you also learn their exact number, their sizes and how long ago they pass through the area.0",
+				"While travelling for an hour or more, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Difficult terrain doesn't slow your group's travel.",
+						"When you forage, you find twice as much food as you normally would.",
+						"Your group can move stealthily at a normal pace.",
+						"Your group has advantage on Wisdom (Survival) check to avoid becoming lost by non-magical means.",
+						"Even when you are engaged in another activity while travelling (such as foraging, navigating, or tracking), you remain alert to danger."
+					]
+				}
 			]
 		}
 	]
