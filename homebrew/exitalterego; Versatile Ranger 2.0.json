@@ -4,7 +4,7 @@
 		"sources": [
 			{
 				"json": "TheVersatileRanger2",
-				"abbreviation": "TVR2",
+				"abbreviation": "VR2",
 				"full": "Regularabsentee's Versatile Ranger",
 				"authors": [
 					"u/Regularabsentee"
@@ -26,7 +26,7 @@
 			"name": "Versatile Ranger",
 			"source": "TheVersatileRanger2",
 			"classFeatures": [
-				"Favored Enemy|Versatile Ranger|TheVersatileRanger2|1"
+				"Favored Enemy|Versatile Ranger|TheVersatileRanger2|1|VR2"
 			]
 		}
 	],
