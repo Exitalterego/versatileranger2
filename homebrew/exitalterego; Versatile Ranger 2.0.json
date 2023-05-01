@@ -27,7 +27,8 @@
 			"source": "VersatileRanger2",
 			"classFeatures": [
 				"Favored Enemy|Versatile Ranger|VersatileRanger2|1|VersatileRanger2",
-				"Natural Explorer|Versatile Ranger|VersatileRanger2|1|VersatileRanger2"
+				"Natural Explorer|Versatile Ranger|VersatileRanger2|1|VersatileRanger2",
+				"Fighting Style|Versatile Ranger|VersatileRanger2||VersatileRanger2"
 			]
 		}
 	],
@@ -56,7 +57,7 @@
 			"entries": [
 				"Your experience with travelling through and surviving in different environments lets you guide other through perilous terrain.",
 				"Your proficiencey bonus is doubled for any Nature or Survival check you make if you are proficient with the skill you are using.",
-				"Whenever you succeed on a Wisdon (Survival) check to track creatures, you also learn their exact number, their sizes and how long ago they pass through the area.0",
+				"Whenever you succeed on a Wisdon (Survival) check to track creatures, you also learn their exact number, their sizes and how long ago they pass through the area.",
 				"While travelling for an hour or more, you gain the following benefits:",
 				{
 					"type": "list",
@@ -66,6 +67,49 @@
 						"Your group can move stealthily at a normal pace.",
 						"Your group has advantage on Wisdom (Survival) check to avoid becoming lost by non-magical means.",
 						"Even when you are engaged in another activity while travelling (such as foraging, navigating, or tracking), you remain alert to danger."
+					]
+				}
+			]
+		},
+		{
+			"name": "Fighting Style",
+			"source": "VersatileRanger2",
+			"className": "Versatile Ranger",
+			"classSource": "VersatileRanger2",
+			"level": 2,
+			"entries": [
+				"At 2nd level, you adopt a particular style of fighting as your speciality. Choose one of the following options: Archery, Defense, Dueling, or Two-Weapon Fighting. You can't take a Fighting Style option more than once, even if you later get to choose again.",
+				{
+					"type": "options",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Archery",
+							"entries": [
+								"You gain +2 bonus to attack rolls you make with ranged weapons."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Defense",
+							"entries": [
+								"While you are wearing armor, you gain a +1 bonus to AC."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Dueling",
+							"entries": [
+								"When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Two-Weapon Fighting",
+							"entries": [
+								"When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack."
+							]
+						}
 					]
 				}
 			]
