@@ -52,7 +52,24 @@
 				"tools": [
 					"None"
 				]
-			}
+			},
+			"skills": [
+				{
+					"choose": {
+						"from": [
+							"Animal Handling", 
+							"Athletics",
+							"Insight",
+							"Investigation",
+							"Nature",
+							"Perception",
+							"Stealth",
+							"Survival"
+						],
+						"count": 3
+					}
+				}
+			]
 		}
 	],
 	"classFeature": [
