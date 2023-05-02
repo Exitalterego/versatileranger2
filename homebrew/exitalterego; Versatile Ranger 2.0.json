@@ -30,7 +30,29 @@
 				"Natural Explorer|Versatile Ranger|VersatileRanger2|1|VersatileRanger2",
 				"Fighting Style|Versatile Ranger|VersatileRanger2|2|VersatileRanger2",
 				"Spellcasting|Versatile Ranger|VersatileRanger2|2|VersatileRanger2"
-			]
+			],
+			"hd": {
+				"number": 1,
+				"faces": 10
+			},
+			"proficiency": [
+				"str",
+				"dex"
+			],
+			"startingProficiencies": {
+				"armor": [
+					"light",
+					"medium",
+					"{@item shield|phb|shields}"
+				],
+				"weapons": [
+					"simple",
+					"martial"
+				],
+				"tools": [
+					"None"
+				]
+			}
 		}
 	],
 	"classFeature": [
