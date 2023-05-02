@@ -114,5 +114,46 @@
 				}
 			]
 		}
+		{
+			"name": "Spellcasting",
+			"source": "VersatileRanger2",
+			"className": "Versatile Ranger",
+			"classSource": "VersatileRanger2",
+			"level": 2,
+			"entries": [
+				"By the time you reach 2nd level, you have learned to use the magical essence of nature to cast spells, much as a druid does. See chapter 10 of the Player’s Handbook for the general rules of spellcasting and chapter 11 for the ranger spell list."
+				{
+					"type": "entries",
+					"name": "Preparing and Casting Spells",
+					"entries": [
+						"The Ranger table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these ranger spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+						"You prepare the list of ranger spells that are available for you to cast, choosing from the ranger spell list. When you do so, choose a number of ranger spells equal to your Wisdom modifier + half your ranger level (minimum of one spell). The spells must be of a level for which you have spell slots.",
+						"For example, if you are a 5th-level ranger, you have four 1st-level and two 2nd-level spell slots. With a Wisdom of 16, your list of prepared spells can include five spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.",
+						"You can also change your list of prepared spells when you finish a long rest. Preparing a new list of ranger spells requires time spent in study and focus: at least 1 minute per spell level for each spell on your list."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spellcasting Ability",
+					"entries":[
+						"Wisdom is your spellcasting ability for your ranger spells, since your magic draws on your attunement to nature. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a ranger spell you cast and when making an attack roll with one."
+					]
+				},
+			{
+				"type": "abilityDc",
+				"name": "Spell save DC",
+				"attributes": [
+					"wis"
+				]
+			},
+			{
+				"type": "abilityAttackMod",
+				"name": "Spell attack modifier",
+				"attributes": [
+					"wis"
+				]
+			}
+			]
+		}
 	]
 }
