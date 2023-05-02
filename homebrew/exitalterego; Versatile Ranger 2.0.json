@@ -113,7 +113,7 @@
 					]
 				}
 			]
-		}
+		},
 		{
 			"name": "Spellcasting",
 			"source": "VersatileRanger2",
@@ -121,7 +121,7 @@
 			"classSource": "VersatileRanger2",
 			"level": 2,
 			"entries": [
-				"By the time you reach 2nd level, you have learned to use the magical essence of nature to cast spells, much as a druid does. See chapter 10 of the Player’s Handbook for the general rules of spellcasting and chapter 11 for the ranger spell list."
+				"By the time you reach 2nd level, you have learned to use the magical essence of nature to cast spells, much as a druid does. See chapter 10 of the Player’s Handbook for the general rules of spellcasting and chapter 11 for the ranger spell list.",
 				{
 					"type": "entries",
 					"name": "Preparing and Casting Spells",
