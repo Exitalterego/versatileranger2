@@ -75,7 +75,7 @@
 					"(a) {@item scale mail|phb} or (b) {@item leather armor|phb}",
 					"(a) two {@item shortsword|phb|shortswords} or (b) two {@filter simple melee weapons|items|source=phb|category=basic|type=simple weapon;melee weapon=sand}",
 					"(a) a {@item dungeoneers pack|phb|} or (b) an {@item explorers pack|phb|}",
-					"(a) a simple or matial ranged weapon and a container with 20 pieces of ammunition or (b) a {@item shield|phb}"
+					"(a) a {@filter simple or matial ranged weapon|items|type=simple weapon;!melee weapon;martial weapon;!spellcasting focus;range|rarity=none} and a container with 20 pieces of ammunition or (b) a {@item shield|phb}"
 				],
 				"additionalFromBackground": true,
 				"goldAlternative": "{@dice 5d4x10|5d4 x 10|Starting Gold}"
