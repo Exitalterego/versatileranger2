@@ -79,7 +79,9 @@
 				],
 				"additionalFromBackground": true,
 				"goldAlternative": "{@dice 5d4x10|5d4 x 10|Starting Gold}"
-			}
+			},
+			"casterprogression": "1/2",
+			"spellcastingAbility": "wis"
 		}
 	],
 	"classFeature": [
