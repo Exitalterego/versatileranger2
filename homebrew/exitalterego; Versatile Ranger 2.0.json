@@ -429,6 +429,9 @@
 						"Ranger Level",
 						"Spell"
 					],
+					"colStyles": [
+						"col-6 text-center"
+					],
 					"rows": [
 						[
 							"3rd",
