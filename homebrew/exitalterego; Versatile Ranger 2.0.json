@@ -239,6 +239,8 @@
 			"subclassTitle": "Ranger Conclave",
 			"fluff": [
 				{
+					"type": "section",
+					"name": "A Versatile Ranger",
 					"entries": [
 						"Moving stealthily, a lone human stalks a deep forest, following the massive tracks of a creature he's hunting. He hears a low growl and in one swift motion, he's hidden behind a tree and knocked his hunting bow.",
 						"A wolf fights alongsided a drow elf against a massive, club-wielding giant. The paid act as one, using the other's attacks as openings for their own, and together they overwhelm their opponent in a flurry of blade and fangs.",
