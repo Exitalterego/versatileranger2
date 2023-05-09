@@ -436,15 +436,15 @@
 					"rows": [
 						[
 							"3rd",
-							"{@italic {{@spell hunters mark}}}"
+							"{@italic {@spell hunters mark}}"
 						],
 						[
 							"5th",
-							"{@italic speak with animals}"
+							"{@italic {@spell speak with animals}}"
 						],
 						[
 							"9th",
-							"{@italic speak with plants}"
+							"{@italic {@spell speak with plants}}"
 						]
 					]
 				}
