@@ -83,11 +83,11 @@
 			"casterprogression": "1/2",
 			"spellcastingAbility": "wis",
 			"classTableGroups": [
-    				{
-        				"title": "Spell Slots per Spell Level",
-        				"colLabels": [
-            					"1st",
-           					"2nd",
+    			{
+        			"title": "Spell Slots per Spell Level",
+        			"colLabels": [
+            			"1st",
+           				"2nd",
 						"3rd",
 						"4th",
 						"5th"
@@ -233,8 +233,19 @@
 							3,
 							2
 						]
-        				]
+        			]
    				}
+			],
+			"subclassTitle": "Ranger Conclave",
+			"fluff": [
+				{
+					"entries": [
+						"Moving stealthily, a lone human stalks a deep forest, following the massive tracks of a creature he's hunting. He hears a low growl and in one swift motion, he's hidden behind a tree and knocked his hunting bow.",
+						"A wolf fights alongsided a drow elf against a massive, club-wielding giant. The paid act as one, using the other's attacks as openings for their own, and together they overwhelm their opponent in a flurry of blade and fangs.",
+						"A tiefling stands in a dark clearing over a werewolf's corpse and wipes blood off a silvered blade. A dozen howls echo through the forest as the tiefling sheathes her blade and enters the moonlit wood once again.",
+						"A ranger's work is never over. There is always another prey in need of hunting."
+					]
+				}
 			]
 		}
 	],
@@ -361,5 +372,5 @@
 				}
 			]
 		}
-	]
+	],
 }
