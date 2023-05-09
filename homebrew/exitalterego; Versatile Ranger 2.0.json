@@ -31,7 +31,12 @@
 				"Fighting Style|Versatile Ranger|VersatileRanger2|2|VersatileRanger2",
 				"Spellcasting|Versatile Ranger|VersatileRanger2|2|VersatileRanger2",
 				"Ranger Conclave|Versatile Ranger|VersatileRanger2|3|VersatileRanger2",
-				"Nature's Warrior|Versatile Ranger|VersatileRanger2|3|VersatileRanger2"
+				"Nature's Warrior|Versatile Ranger|VersatileRanger2|3|VersatileRanger2",
+				"Ability Score Improvement|Versatile Ranger|VersatileRanger2|4|VersatileRanger2",
+				"Ability Score Improvement|Versatile Ranger|VersatileRanger2|8|VersatileRanger2",
+				"Ability Score Improvement|Versatile Ranger|VersatileRanger2|12|VersatileRanger2",
+				"Ability Score Improvement|Versatile Ranger|VersatileRanger2|16|VersatileRanger2",
+				"Ability Score Improvement|Versatile Ranger|VersatileRanger2|19|VersatileRanger2"
 			],
 			"hd": {
 				"number": 1,
