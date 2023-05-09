@@ -436,7 +436,7 @@
 					"rows": [
 						[
 							"3rd",
-							"{@italic hunter's mark}"
+							"{@italic {{@spell hunter's mark|phb}}}"
 						],
 						[
 							"5th",
