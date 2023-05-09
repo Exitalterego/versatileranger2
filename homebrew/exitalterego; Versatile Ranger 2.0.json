@@ -80,8 +80,6 @@
 				"additionalFromBackground": true,
 				"goldAlternative": "{@dice 5d4x10|5d4 x 10|Starting Gold}"
 			},
-			"casterprogression": "1/2",
-			"spellcastingAbility": "wis",
 			"classTableGroups": [
     			{
         			"title": "Spell Slots per Spell Level",
@@ -236,12 +234,14 @@
         			]
    				}
 			],
+			"casterProgression": "1/2",
+			"spellcastingAbility": "wis",
 			"subclassTitle": "Ranger Conclave",
 			"fluff": [
 				{
 					"type": "section",
 					"source": "VersatileRanger2",
-					"name": "A Versatile Ranger",
+					"name": "The Versatile Ranger",
 					"entries": [
 						"Moving stealthily, a lone human stalks a deep forest, following the massive tracks of a creature he's hunting. He hears a low growl and in one swift motion, he's hidden behind a tree and knocked his hunting bow.",
 						"A wolf fights alongsided a drow elf against a massive, club-wielding giant. The paid act as one, using the other's attacks as openings for their own, and together they overwhelm their opponent in a flurry of blade and fangs.",
@@ -407,6 +407,39 @@
 					"entries": [
 						"Each conclave has a list of associated spells. You gain access to these spells at the levels specified in the conclave description. Once you gain access to a conclave spell, you always have it prepared. Conclave spells don't count against the number of spells you can prepare each day.",
 						"If you gain a conclave spell that doesn't appear on the ranger spell list, the spell is nonetheless a ranger spell for you."
+					]
+				}
+			]
+		},
+		{
+			"name": "Nature's Warrior",
+			"source": "VersatileRanger2",
+			"className": "Versatile Ranger",
+			"classSource": "VersatileRanger2",
+			"level": 3,
+			"entries": [
+				"Beginning at 3rd level, you begin to master ranger lore and start to forge a bond with beasts and with the land around you. You gain certain spells at the ranger levels noted in the Nature’s Warrior Spells table. Once you gain these spells, you can cast them innately a number of times without using a spell slot or having them prepared. If you prepare your Nature’s Warrior spells, you can cast them using either this feature or with a spell slot as normal.",
+				"You can cast your Nature’s Warrior spells using this feature a number of times equal to your Wisdom modifier (minimum of 1). For example, if you are a 5th level ranger with a Wisdom of 16, you can cast hunter’s mark once, and speak with animals twice using this feature. You regain all expended uses when you finish a long rest.",
+				{
+					"type": "table",
+					"caption": "Nature's Warrior Spells",
+					"colLabels": [
+						"Ranger Level",
+						"Spell"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@italic hunter's mark}"
+						],
+						[
+							"5th",
+							"{@italic speak with animals}"
+						],
+						[
+							"9th",
+							"{@italic speak with plants}"
+						]
 					]
 				}
 			]
