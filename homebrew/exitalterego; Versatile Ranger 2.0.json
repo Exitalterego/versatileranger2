@@ -433,7 +433,7 @@
 					"colLabels": [
 						"Ranger Level",
 						"Spell",
-						""
+						" "
 					],
 					"colStyles": [
 						"col-2 text-center",
@@ -444,17 +444,17 @@
 						[
 							"3rd",
 							"{@spell hunters mark|phb|Hunter's Mark}",
-							""
+							" "
 						],
 						[
 							"5th",
 							"{@spell Speak with Animals}",
-							""
+							" "
 						],
 						[
 							"9th",
 							"{@spell Speak with Plants}",
-							""
+							" "
 						]
 					]
 				}
