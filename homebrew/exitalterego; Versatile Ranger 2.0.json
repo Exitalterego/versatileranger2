@@ -33,7 +33,10 @@
 				"Ranger Conclave|Versatile Ranger|VersatileRanger2|3|VersatileRanger2",
 				"Nature's Warrior|Versatile Ranger|VersatileRanger2|3|VersatileRanger2",
 				"Ability Score Improvement|Versatile Ranger|VersatileRanger2|4|VersatileRanger2",
+				"Extra Attack|Versatile Ranger|VersatileRanger2|5|VersatileRanger2",
+				"Endurance|Versatile Ranger|VersatileRanger2|6|VersatileRanger2",
 				"Ability Score Improvement|Versatile Ranger|VersatileRanger2|8|VersatileRanger2",
+				"Land's Stride|Versatile Ranger|VersatileRanger2|10|VersatileRanger2",
 				"Ability Score Improvement|Versatile Ranger|VersatileRanger2|12|VersatileRanger2",
 				"Ability Score Improvement|Versatile Ranger|VersatileRanger2|16|VersatileRanger2",
 				"Ability Score Improvement|Versatile Ranger|VersatileRanger2|19|VersatileRanger2"
@@ -443,7 +446,7 @@
 					"rows": [
 						[
 							"3rd",
-							"{@spell hunters mark|phb|Hunter's Mark}",
+							"{@spell Hunter's Mark}",
 							""
 						],
 						[
@@ -473,6 +476,30 @@
 			]
 		},
 		{
+			"name": "Extra Attack",
+			"source": "VersatileRanger2",
+			"className": "Versatile Ranger",
+			"classSource": "VersatileRanger2",
+			"level": 5,
+			"entries":
+			[
+				"Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn."
+			]
+		},
+		{
+			"name": "Endurance",
+			"source": "VersatileRanger2",
+			"className": "Versatile Ranger",
+			"classSource": "VersatileRanger2",
+			"level": 6,
+			"entries":
+			[
+				"At 6th level, prolonged hunts have strengthened your fortitude and have taught you how to keep pace with your prey.",
+				"You can use the Dash action as a bonus action on your turn.",
+				"Additionally, you experience the exhaustion effects of the level below your current level of exhaustion, instead of the usual effects."
+			]
+		},
+		{
 			"name": "Ability Score Improvement",
 			"source": "VersatileRanger2",
 			"className": "Versatile Ranger",
@@ -482,6 +509,19 @@
 			[
 				"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
 				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Land's Stride",
+			"source": "VersatileRanger2",
+			"className": "Versatile Ranger",
+			"classSource": "VersatileRanger2",
+			"level": 8,
+			"entries":
+			[
+				"Beginning at 10th level, your movement has become one with the land, letting you travel swiftly and stealthily.",
+				"Moving through difficult terrain costs you no extra movement.",
+				"Additionally, your group can't be tracked by nonmagical means, unless you choose to leave a trail."
 			]
 		},
 		{
