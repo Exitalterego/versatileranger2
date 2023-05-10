@@ -432,24 +432,29 @@
 					"caption": "Nature's Warrior Spells",
 					"colLabels": [
 						"Ranger Level",
-						"Spell"
+						"Spell",
+						""
 					],
 					"colStyles": [
-						"col-6 text-center",
-						"col-6 text center"
+						"col-2 text-center",
+						"col-5 text-center",
+						"col-5 text-center"
 					],
 					"rows": [
 						[
 							"3rd",
-							"{@spell hunters mark|phb|Hunter's Mark}"
+							"{@spell hunters mark|phb|Hunter's Mark}",
+							""
 						],
 						[
 							"5th",
-							"{@spell Speak with Animals}"
+							"{@spell Speak with Animals}",
+							""
 						],
 						[
 							"9th",
 							"{@spell Speak with Plants}"
+							""
 						]
 					]
 				}
