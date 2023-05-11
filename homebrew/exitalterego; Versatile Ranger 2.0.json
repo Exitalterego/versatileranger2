@@ -35,11 +35,17 @@
 				"Ability Score Improvement|Versatile Ranger|VersatileRanger2|4|VersatileRanger2",
 				"Extra Attack|Versatile Ranger|VersatileRanger2|5|VersatileRanger2",
 				"Endurance|Versatile Ranger|VersatileRanger2|6|VersatileRanger2",
+				"Ranger Conclave Feature|Versatile Ranger|VersatileRanger2|7|VersatileRanger2",
 				"Ability Score Improvement|Versatile Ranger|VersatileRanger2|8|VersatileRanger2",
 				"Land's Stride|Versatile Ranger|VersatileRanger2|10|VersatileRanger2",
+				"Ranger Conclave Feature|Versatile Ranger|VersatileRanger2|11|VersatileRanger2",
 				"Ability Score Improvement|Versatile Ranger|VersatileRanger2|12|VersatileRanger2",
+				"Vanish|Versatile Ranger|VersatileRanger2|14|VersatileRanger2",
+				"Ranger Conclave Feature|Versatile Ranger|VersatileRanger2|15|VersatileRanger2",
 				"Ability Score Improvement|Versatile Ranger|VersatileRanger2|16|VersatileRanger2",
-				"Ability Score Improvement|Versatile Ranger|VersatileRanger2|19|VersatileRanger2"
+				"Feral Senses|Versatile Ranger|VersatileRanger2|18|VersatileRanger2",
+				"Ability Score Improvement|Versatile Ranger|VersatileRanger2|19|VersatileRanger2",
+				"Foe Slayer|Versatile Ranger|VersatileRanger2|20|VersatileRanger2"
 			],
 			"hd": {
 				"number": 1,
@@ -500,6 +506,16 @@
 			]
 		},
 		{
+			"name": "Ranger Conclave Feature",
+			"source": "VersatileRanger2",
+			"className": "Versatile Ranger",
+			"classSource": "VersatileRanger2",
+			"level": 7,
+			"entries": [
+				"At 7th level, you gain a feature granted to you by your Ranger Conclave."
+			]
+		},
+		{
 			"name": "Ability Score Improvement",
 			"source": "VersatileRanger2",
 			"className": "Versatile Ranger",
@@ -516,12 +532,22 @@
 			"source": "VersatileRanger2",
 			"className": "Versatile Ranger",
 			"classSource": "VersatileRanger2",
-			"level": 8,
+			"level": 10,
 			"entries":
 			[
 				"Beginning at 10th level, your movement has become one with the land, letting you travel swiftly and stealthily.",
 				"Moving through difficult terrain costs you no extra movement.",
 				"Additionally, your group can't be tracked by nonmagical means, unless you choose to leave a trail."
+			]
+		},
+		{
+			"name": "Ranger Conclave Feature",
+			"source": "VersatileRanger2",
+			"className": "Versatile Ranger",
+			"classSource": "VersatileRanger2",
+			"level": 11,
+			"entries": [
+				"At 11th level, you gain a feature granted to you by your Ranger Conclave."
 			]
 		},
 		{
@@ -537,6 +563,29 @@
 			]
 		},
 		{
+			"name": "Vanish",
+			"source": "VersatileRanger2",
+			"className": "Versatile Ranger",
+			"classSource": "VersatileRanger2",
+			"level": 14,
+			"entries":
+			[
+				"Starting at 14th level, your experience in hunting has taught you how to stalk your prey unseen. You can use the Hide action as a bonus action on your turn.",
+				"If you avoid moving on the turn you use the Hide action, you gain a bonus to the Dexterity (Stealth) check you make to hide equal to your Wisdom modifier.",
+				"You lose this bonus if you move or fall prone, either voluntarily or because of some external effect. You are still automatically detected if any effect or action causes you to no longer be hidden."
+			]
+		},
+		{
+			"name": "Ranger Conclave Feature",
+			"source": "VersatileRanger2",
+			"className": "Versatile Ranger",
+			"classSource": "VersatileRanger2",
+			"level": 15,
+			"entries": [
+				"At 15th level, you gain a feature granted to you by your Ranger Conclave."
+			]
+		},
+		{
 			"name": "Ability Score Improvement",
 			"source": "VersatileRanger2",
 			"className": "Versatile Ranger",
@@ -549,6 +598,25 @@
 			]
 		},
 		{
+			"name": "Feral Senses",
+			"source": "VersatileRanger2",
+			"className": "Versatile Ranger",
+			"classSource": "VersatileRanger2",
+			"level": 18,
+			"entries":
+			[
+				"At 18th level, you gain heightened senses like a beast of the wilds. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You have advantage on Wisdom (Perception) checks that rely on hearing or sight.",
+						"Attacking an invisible creature or a creature you can’t see does not impose disadvantage on your attack rolls.",
+						"Creatures within 30 feet of you do not gain advantage on attack rolls against you from being invisible or unseen, provided that the attacking creature isn't hidden from you and you aren't blinded or deafened."
+					]
+				}
+			]
+		},
+		{
 			"name": "Ability Score Improvement",
 			"source": "VersatileRanger2",
 			"className": "Versatile Ranger",
@@ -558,6 +626,148 @@
 			[
 				"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
 				"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+			]
+		},
+		{
+			"name": "Foe Slayer",
+			"source": "VersatileRanger2",
+			"className": "Versatile Ranger",
+			"classSource": "VersatileRanger2",
+			"level": 20,
+			"entries":
+			[
+				"At 20th level, you become an unparalleled hunter.",
+				"Once on each of your turns, you can add your Wisdom modifier to the attack roll and the damage roll of an attack you make. You can choose to use this feature before or after the roll, but before any effects of the roll are applied."
+			]
+		}
+	],
+	"subclass": [
+		{
+			"name": "Hunter",
+			"source": "VersatileRanger2",
+			"className": "Versatile Ranger",
+			"classSource": "VersatileRanger2",
+			"shortName": "Hunter",
+			"subclassFeatures": [
+				"Hunter|Versatile Ranger|VersatileRanger2|Hunter|VersatileRanger2|3|VersatileRanger2"
+			]
+		},
+		{
+			"name": "Beast Master",
+			"source": "VersatileRanger2",
+			"className": "Versatile Ranger",
+			"classSource": "VersatileRanger2",
+			"shortName": "Beast Master",
+			"subclassFeatures": [
+				""
+			]
+		},
+		{
+			"name": "Herbalist",
+			"source": "VersatileRanger2",
+			"className": "Versatile Ranger",
+			"classSource": "VersatileRanger2",
+			"shortName": "Herbalist",
+			"subclassFeatures": [
+				""
+			]
+		},
+		{
+			"name": "Nomad",
+			"source": "VersatileRanger2",
+			"className": "Versatile Ranger",
+			"classSource": "VersatileRanger2",
+			"shortName": "Nomad",
+			"subclassFeatures": [
+				""
+			]
+		},
+		{
+			"name": "Shaman",
+			"source": "VersatileRanger2",
+			"className": "Versatile Ranger",
+			"classSource": "VersatileRanger2",
+			"shortName": "Shaman",
+			"subclassFeatures": [
+				""
+			]
+		},
+		{
+			"name": "Warden",
+			"source": "VersatileRanger2",
+			"className": "Versatile Ranger",
+			"classSource": "VersatileRanger2",
+			"shortName": "Warden",
+			"subclassFeatures": [
+				""
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Hunter",
+			"source": "VersatileRanger2",
+			"className": "Versatile Ranger",
+			"classSource": "VersatileRanger2",
+			"subclassShortName": "Hunter",
+			"subclassSource": "VersatileRanger2",
+			"level": 3,
+			"entries": [
+				"Some rangers seek to master weapons to better protect civilization from the terrors of the wilderness. Members of the Hunter Conclave learn specialized fighting techniques for use against the most dire threats, from rampaging ogres and hordes of orcs to towering giants and terrifying dragons.",
+				{
+					"type": "entries",
+					"name": "Hunter Magic",
+					"entries": [
+						"You gain the conclave spells at the ranger levels listed.",
+						{
+							"type": "table",
+							"caption": "Hunter Spells",
+							"colLabels": [
+								"Ranger Level",
+								"Spell",
+								""
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-5 text-center",
+								"col-5 text-center"
+							],
+							"rows": [
+								[
+									"3rd",
+									"{@spell Faerie Fire}",
+									""
+								],
+								[
+									"5th",
+									"{@spell Enhance Ability}",
+									""
+								],
+								[
+									"9th",
+									"{@spell Slow}",
+									""
+								],
+								[
+									"13th",
+									"{@spell Greater Invisibility}",
+									""
+								],								[
+									"17th",
+									"{@spell Skill Empowerment}",
+									""
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hunter's Prey",
+					"entries": [
+						"At 3rd level, you gain one of the following features of your choice: Colossus Slayer, Giant Killer, or Horde Breaker."
+					]
+				}
 			]
 		}
 	]
