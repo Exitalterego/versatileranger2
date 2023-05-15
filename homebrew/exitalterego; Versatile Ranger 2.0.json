@@ -1094,6 +1094,152 @@
 					]
 				}
 			]
+		},
+				{
+			"name": "Herbalist Conclave",
+			"source": "VersatileRanger2",
+			"className": "Versatile Ranger",
+			"classSource": "VersatileRanger2",
+			"subclassShortName": "Herbalist",
+			"subclassSource": "VersatileRanger2",
+			"level": 3,
+			"entries": [
+				"Herbalists have learned to extract the magical properties of plants and nature in order to create potent mixtures that can aid allies and injure foes.",
+				{
+					"type": "entries",
+					"name": "Herbalist Magic",
+					"entries": [
+						"You gain the conclave spells at the ranger levels listed.",
+						{
+							"type": "table",
+							"caption": "Herbalist Spells",
+							"colLabels": [
+								"Ranger Level",
+								"Spell",
+								""
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-5 text-center",
+								"col-5 text-center"
+							],
+							"rows": [
+								[
+									"3rd",
+									"{@spell Purify Food and Drink}",
+									""
+								],
+								[
+									"5th",
+									"{@spell Aid}",
+									""
+								],
+								[
+									"9th",
+									"{@spell Stinking Cloud}",
+									""
+								],
+								[
+									"13th",
+									"{@spell Blight}",
+									""
+								],
+								[
+									"17th",
+									"{@spell Greater Restoration}",
+									""
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+				{
+			"name": "Alchemist",
+			"source": "VersatileRanger2",
+			"className": "Versatile Ranger",
+			"classSource": "VersatileRanger2",
+			"subclassShortName": "Herbalist",
+			"subclassSource": "VersatileRanger2",
+			"level": 3,
+			"entries": [
+				"At 3rd level, you gain proficiency with herbalism kits and you add double your proficiency bonus for any ability check you make using it. Also, the gold and time you must spend to create antitoxins and potions using an herbalism kit is halved."
+			]
+		},
+		{
+			"name": "Volatile Mixtures",
+			"source": "VersatileRanger2",
+			"className": "Versatile Ranger",
+			"classSource": "VersatileRanger2",
+			"subclassShortName": "Herbalist",
+			"subclassSource": "VersatileRanger2",
+			"level": 3,
+			"entries": [
+				"At 3rd level, as long as you have an herbalism kit, at the end of a long rest, you can prepare up to five mixtures, chosen from the list below, in any combination. For example, you can prepare three healing draughts and two quick coatings at the end of a long rest.",
+				"It is assumed that your mixtures are created from ingredients foraged or gathered while traveling. Your mixtures lose their potency after 24 hours.",
+				"Some mixtures require a target to make a saving throw to resist the mixture's effects. The saving throw DC is your ranger spell save DC.",
+				{
+					"type": "entries",
+					"name": "List of Mixtures",
+					"entries": [
+						"The options for your Volatile Mixtures feature are presented here.",
+						"{@b Healing Draught.} This draught takes an action to drink or administer to another creature. A creature that drinks this draught regains 1d6 hit points. This draught has no effect on undead or constructs.",
+						"The healing increases to 2d6 when you reach 11th level.",
+						"{@b Restorative Draught. This draught takes an action to drink or administer to another creature. Creatures that drink this draught is cured of either one disease or one condition afflicting it. The condition can be blinded, deafened, paralyzed, or poisoned. This draught has no effect on undead or constructs.",
+						"{@b Quick Coating.} As a bonus action on your turn, you can coat one melee weapon or up to five pieces of ammunition with a reactive alchemical mixture. Once applied, the coating loses its potency at the start of your next turn.",
+						"A coated weapon or piece of ammunition deals an additional 1d6 damage. The damage type is acid or poison (your choice).",
+						"The additional damage increases to 1d10 when you reach 11th level.",
+						"{@b Poison Bomb.} As an action, you can throw this flask to a point up to 20 feet from you, shattering it on impact, releasing a small cloud of poison that disperses quickly. Each creature in a 5-foot-radius sphere centered on the point of impact must make a Constitution saving throw or take 1d4 poison damage and become poisoned for one minute. The creature can repeat the saving throw at the end of each of its turns, ending the condition on itself on a success.",
+						"Holding one's breath is ineffective against the poison, as it affects nasal membranes, tear ducts, and other parts of the body.",
+						"The damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4).",
+						"{@b Smoke Bomb.} As an action, you can throw this flask to a point up to 20 feet from you, shattering it on impact. It creates a 10-foot-radius sphere of smoke centered on the point of impact. The sphere spreads around corners, and its area is heavily obscured. It lasts for one minute or until winds (at least 5 miles per hour) disperse it.",
+						"{@b Sludge Bomb.} As an action, you can throw this flask to a point up to 20 feet from you, shattering it on impact. The ground in a 5-foot-radius centered on that point becomes difficult terrain for one minute."
+					]
+				}
+			]
+		},
+		{
+			"name": "Natural Resistance",
+			"source": "VersatileRanger2",
+			"className": "Versatile Ranger",
+			"classSource": "VersatileRanger2",
+			"subclassShortName": "Herbalist",
+			"subclassSource": "VersatileRanger2",
+			"level": 7,
+			"entries": [
+				"At 7th level, due to repeated exposure to alchemical mixtures and poisons, your body’s natural resistances have increased. You gain proficiency in Constitution saving throws."
+			]
+		},
+		{
+			"name": "Quick Mixing",
+			"source": "VersatileRanger2",
+			"className": "Versatile Ranger",
+			"classSource": "VersatileRanger2",
+			"subclassShortName": "Herbalist",
+			"subclassSource": "VersatileRanger2",
+			"level": 11,
+			"entries": [
+				"At 11th level, at the end of a long rest, you prepare an additional number of mixtures equal to your Wisdom modifier (total of 5 + your Wisdom modifier).",
+			]
+		},
+		{
+			"name": "Master Alchemist",
+			"source": "VersatileRanger2",
+			"className": "Versatile Ranger",
+			"classSource": "VersatileRanger2",
+			"subclassShortName": "Herbalist",
+			"subclassSource": "VersatileRanger2",
+			"level": 15,
+			"entries": [
+				"At 15th level, you have mastered your mixtures’ recipes, and have learned to combine your ingredients to deadly effectiveness. Your mixtures gain additional effects:",
+				"{@b Healing Draught.} You add your Wisdom modifier to the amount of hit points the draught restores.",
+				"{@b Restorative Draught.} In addition to curing one disease or condition, the mixture also reduces the target's exhaustion level by one.",
+				"{@b Quick Coating.} When you roll damage for the quick coating, you can treat any 1 on a damage die as a 2.",
+				"{@b Poison Bomb.} A creature who succeeds on the saving throw takes half the damage instead of no damage.",
+				"{@b Smoke Bomb.} The smoke's radius increases to 15 feet, and it lasts for up to 10 minutes. Winds can no longer disperse the smoke.",
+				"{@b Sludge Bomb.} When a Large or smaller creature enters the sludge’s area for the first time on a turn or starts its turn there, that creature must make a Strength saving throw. On a failed save, the creature is grappled by the sludge until the start of its next turn."
+			]
 		}
 	]
 }
