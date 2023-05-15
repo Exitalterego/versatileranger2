@@ -649,7 +649,7 @@
 			"classSource": "VersatileRanger2",
 			"shortName": "Hunter",
 			"subclassFeatures": [
-				"Hunter|Versatile Ranger|VersatileRanger2|Hunter|VersatileRanger2|3|VersatileRanger2",
+				"Hunter Conclave|Versatile Ranger|VersatileRanger2|Hunter|VersatileRanger2|3|VersatileRanger2",
 				"Hunter's Prey|Versatile Ranger|VersatileRanger2|Hunter|VersatileRanger2|3|VersatileRanger2",
 				"Defensive Tactics|Versatile Ranger|VersatileRanger2|Hunter|VersatileRanger2|7|VersatileRanger2",
 				"Multiattack|Versatile Ranger|VersatileRanger2|Hunter|VersatileRanger2|11|VersatileRanger2",
@@ -663,7 +663,7 @@
 			"classSource": "VersatileRanger2",
 			"shortName": "Beast Master",
 			"subclassFeatures": [
-				"Beast Master|Versatile Ranger|VersatileRanger2|Beast Master|VersatileRanger2|3|VersatileRanger2",
+				"Beast Master Conclave|Versatile Ranger|VersatileRanger2|Beast Master|VersatileRanger2|3|VersatileRanger2",
 				"Animal Companion|Versatile Ranger|VersatileRanger2|Beast Master|VersatileRanger2|3|VersatileRanger2",
 				"Magical Bond|Versatile Ranger|VersatileRanger2|Beast Master|VersatileRanger2|7|VersatileRanger2",
 				"Peerless Teamwork|Versatile Ranger|VersatileRanger2|Beast Master|VersatileRanger2|11|VersatileRanger2",
@@ -713,7 +713,7 @@
 	],
 	"subclassFeature": [
 		{
-			"name": "Hunter",
+			"name": "Hunter Conclave",
 			"source": "VersatileRanger2",
 			"className": "Versatile Ranger",
 			"classSource": "VersatileRanger2",
@@ -832,7 +832,7 @@
 			]
 		},
 		{
-			"name": "Beast Master",
+			"name": "Beast Master Conclave",
 			"source": "VersatileRanger2",
 			"className": "Versatile Ranger",
 			"classSource": "VersatileRanger2",
