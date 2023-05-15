@@ -663,7 +663,7 @@
 			"classSource": "VersatileRanger2",
 			"shortName": "Beast Master",
 			"subclassFeatures": [
-				"Beast Master Conclave|Versatile Ranger|VersatileRanger2|Beast Master|VersatileRanger2|3|VersatileRanger2",
+				"Beast Conclave|Versatile Ranger|VersatileRanger2|Beast Master|VersatileRanger2|3|VersatileRanger2",
 				"Animal Companion|Versatile Ranger|VersatileRanger2|Beast Master|VersatileRanger2|3|VersatileRanger2",
 				"Magical Bond|Versatile Ranger|VersatileRanger2|Beast Master|VersatileRanger2|7|VersatileRanger2",
 				"Peerless Teamwork|Versatile Ranger|VersatileRanger2|Beast Master|VersatileRanger2|11|VersatileRanger2",
@@ -677,7 +677,12 @@
 			"classSource": "VersatileRanger2",
 			"shortName": "Herbalist",
 			"subclassFeatures": [
-				""
+				"Herbalist Conclave|Versatile Ranger|VersatileRanger2|Herbalist|VersatileRanger2|3|VersatileRanger2",
+				"Alchemist|Versatile Ranger|VersatileRanger2|Herbalist|VersatileRanger2|3|VersatileRanger2",
+				"Volatile Mixtures|Versatile Ranger|VersatileRanger2|Herbalist|VersatileRanger2|3|VersatileRanger2",
+				"Natural Resistance|Versatile Ranger|VersatileRanger2|Herbalist|VersatileRanger2|7|VersatileRanger2",
+				"Quick Mixing|Versatile Ranger|VersatileRanger2|Herbalist|VersatileRanger2|11|VersatileRanger2",
+				"Master Alchemist|Versatile Ranger|VersatileRanger2|Herbalist|VersatileRanger2|15|VersatileRanger2"
 			]
 		},
 		{
@@ -687,7 +692,12 @@
 			"classSource": "VersatileRanger2",
 			"shortName": "Nomad",
 			"subclassFeatures": [
-				""
+				"Nomadic Conclave|Versatile Ranger|VersatileRanger2|Nomad|VersatileRanger2|3|VersatileRanger2",
+				"Wanderer|Versatile Ranger|VersatileRanger2|Nomad|VersatileRanger2|3|VersatileRanger2",
+				"Speed of the Wind|Versatile Ranger|VersatileRanger2|Nomad|VersatileRanger2|3|VersatileRanger2",
+				"Escapist|Versatile Ranger|VersatileRanger2|Nomad|VersatileRanger2|7|VersatileRanger2",
+				"Drifter|Versatile Ranger|VersatileRanger2|Nomad|VersatileRanger2|11|VersatileRanger2",
+				"Ambuscade|Versatile Ranger|VersatileRanger2|Nomad|VersatileRanger2|15|VersatileRanger2"
 			]
 		},
 		{
@@ -697,7 +707,12 @@
 			"classSource": "VersatileRanger2",
 			"shortName": "Shaman",
 			"subclassFeatures": [
-				""
+				"Shamanic Conclave|Versatile Ranger|VersatileRanger2|Shaman|VersatileRanger2|3|VersatileRanger2",
+				"Shamanic Spellcasting|Versatile Ranger|VersatileRanger2|Shaman|VersatileRanger2|3|VersatileRanger2",
+				"Shamanic Focus|Versatile Ranger|VersatileRanger2|Shaman|VersatileRanger2|3|VersatileRanger2",
+				"Primal Wisdom|Versatile Ranger|VersatileRanger2|Shaman|VersatileRanger2|7|VersatileRanger2",
+				"Nature’s Fury|Versatile Ranger|VersatileRanger2|Shaman|VersatileRanger2|11|VersatileRanger2",
+				"Forest’s Fortitude|Versatile Ranger|VersatileRanger2|Shaman|VersatileRanger2|15|VersatileRanger2"
 			]
 		},
 		{
@@ -707,7 +722,12 @@
 			"classSource": "VersatileRanger2",
 			"shortName": "Warden",
 			"subclassFeatures": [
-				""
+				"Warden Conclave|Versatile Ranger|VersatileRanger2|Warden|VersatileRanger2|3|VersatileRanger2",
+				"Wildblood|Versatile Ranger|VersatileRanger2|Shaman|VersatileRanger2|3|VersatileRanger2",
+				"Earthstrength|Versatile Ranger|VersatileRanger2|Shaman|VersatileRanger2|3|VersatileRanger2",
+				"Lifespirit|Versatile Ranger|VersatileRanger2|Shaman|VersatileRanger2|7|VersatileRanger2",
+				"Elemental Guardian|Versatile Ranger|VersatileRanger2|Shaman|VersatileRanger2|11|VersatileRanger2",
+				"Stormheart|Versatile Ranger|VersatileRanger2|Shaman|VersatileRanger2|15|VersatileRanger2"
 			]
 		}
 	],
@@ -832,7 +852,7 @@
 			]
 		},
 		{
-			"name": "Beast Master Conclave",
+			"name": "Beast Conclave",
 			"source": "VersatileRanger2",
 			"className": "Versatile Ranger",
 			"classSource": "VersatileRanger2",
